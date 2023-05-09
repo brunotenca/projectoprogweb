@@ -8,14 +8,14 @@ body{
   margin-top: 0;
   padding: 0;
   background-color: brown;
-  font-size: 17px;
+  font-size: 17vw;
   justify-content: center;
   display: flex;
   color: white;
   overflow: hidden;
-  width: 1240px;
+  width: 99,5xvw;
+  height: 10vw;
   float: inline-start;
-  border-radius: 15px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -41,7 +41,7 @@ li a:hover{
 .fotoInicio{
     width: 650px;
     margin-left: 300px;
-    border-radius: 20px;
+    box-shadow: 1, 1, 1, 0.7px;
 }
 
 .titulo {
