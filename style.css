@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(186, 176, 176);
+  background-color:rgb(223, 218, 218);
 }
 
 .NavBar{
@@ -8,12 +8,12 @@ body{
   margin-top: 0;
   padding: 0;
   background-color: brown;
-  font-size: 17vw;
+  font-size: 17vw ;
   justify-content: center;
   display: flex;
-  color: white;
+  color: rgb(108, 39, 39);
   overflow: hidden;
-  width: 99,5xvw;
+  width: 99,5vw;
   height: 10vw;
   float: inline-start;
   font-family: 'Montserrat', sans-serif;
@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(108, 39, 39);
   font-weight: bold;
   transition: .5s;
 }
@@ -37,25 +37,53 @@ li a:hover{
  background-color: black;
 }
 
-
 .fotoInicio{
-    width: 650px;
-    margin-left: 300px;
-    box-shadow: 1, 1, 1, 0.7px;
+    width: 100%;
+    height: 40vw;
 }
 
 .titulo {
-  font-size: 100px;
+  font-size: 4vw;
   justify-content: center;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 .footer{
-  font-family: 'Gluten', cursive;
-  margin-top: 20px;
-  text-align:left;
-  padding: 50px;
+  margin-top: 2vw;
+  text-align: left;
+  padding: 5vw;
   background-color: black;
   color: black;
 }
+
+/* Cambiar color de fondo y texto de botones de la barra de navegación */
+.navbar-light .navbar-nav .nav-link {
+  color: #212529; /* Cambia el color del texto */
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #fff; /* Cambia el color del texto al pasar el mouse por encima */
+  background-color: #0d6efd; /* Cambia el color de fondo */
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw;
+}
+
+.fotoCard{
+  width: 20vw;
+  height: 10vw;
+}
+
+.row_carousel{
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleFade{
+  width: 700px;
+  height: 500px;
+}
+
