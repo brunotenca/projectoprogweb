@@ -1,0 +1,118 @@
+body{
+  background-color:rgb(0, 0, 0);
+}
+
+.NavBar{
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+  background-color: brown;
+  font-size: 17vw ;
+  justify-content: center;
+  display: flex;
+  color: rgb(108, 39, 39);
+  overflow: hidden;
+  width: 99,5vw;
+  height: 10vw;
+  float: inline-start;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  margin: 8px;
+  padding: 10px;  
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: .5s;
+}
+
+
+.fotoInicio{
+    width: 100%;
+    height: 40vw;
+}
+
+.titulo {
+  font-size: 4vw;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subtitulo{
+  font-size: 2vw;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Cambiar color de fondo y texto de botones de la barra de navegación */
+.navbar-light .navbar-nav .nav-link {
+  color: #a7b5c3; /* Cambia el color del texto */
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #c54646; /* Cambia el color del texto al pasar el mouse por encima */
+  background-color: #d57859; /* Cambia el color de fondo */
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw;
+}
+
+.fotoCard{
+  width: 20vw;
+  height: 13vw;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.row_carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-image {
+  max-width: 80%;
+}
+
+.custom-carousel {
+  width: 60%;
+  height: 60%;
+}
+
+.custom-carousel {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotosArtistas{
+  width: 30vw;
+  height: 20vw;
+  justify-content:center;
+  border-radius: 22vw;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.bio{
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.img-container{
+  text-align: center;
+  display: block;
+}
