@@ -61,7 +61,7 @@ nav ul li a {
   background-color: #d57859; /* Cambia el color de fondo */
 }
 
-.container{
+.containerr{
   display: flex;
   justify-content: space-between;
   padding: 5vw;
@@ -100,7 +100,6 @@ nav ul li a {
 .fotosArtistas{
   width: 30vw;
   height: 20vw;
-  justify-content:center;
   border-radius: 22vw;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
