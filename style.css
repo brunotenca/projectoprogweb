@@ -61,11 +61,32 @@ nav ul li a {
   background-color: #d57859; /* Cambia el color de fondo */
 }
 
-.containerr{
+.container {
   display: flex;
-  justify-content: space-between;
-  padding: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.card {
+  width: 20vw;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 45%; /* Ajusta el ancho según tus necesidades */
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .fotoCard{
   width: 20vw;
