@@ -1,2 +1,4 @@
 let a = 0
-consolelog("esto es javaaaaaa")
+console.log("esto es javaaaaaa")
+let bruno="capo"
+console.log("bruno",bruno)
