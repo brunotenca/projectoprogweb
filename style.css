@@ -131,3 +131,16 @@ nav ul li a {
   text-align: center;
   display: block;
 }
+.footer-widgets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left, .bottom-right {
+  flex-basis: 50%;
+}
