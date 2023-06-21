@@ -227,7 +227,7 @@ const stockProductos = [
      setTimeout(() => {
        spinner.classList.remove('d-flex')
        spinner.classList.add('d-none')
-       formulario.reset()
+       formulario.reset(3000)
   
        const alertExito = document.createElement('p')
        alertExito.classList.add('alert', 'alerta', 'd-block', 'text-center', 'col-12', 'mt-2', 'alert-success')
